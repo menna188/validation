@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form onsubmit="return formvalidate();">
+        <h2><i class="fas fa-user icon"></i>Create Account</h2>
+    
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="First name" id="first">
+        </div>
+    
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Last Name" id="last">
+        </div>
+    
+        <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Enter Your Email" id="email">
+        </div>
+    
+        <div class="input-group">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Enter Your Number" id="number">
+        </div>
+    
+        <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="pass">
+        </div>
+    
+        <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" id="conpass">
+        </div>
+    
+        <button type="submit"><i class="fas fa-user-plus icon"></i>Sign Up</button>
+        <p id="error"></p>
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>
